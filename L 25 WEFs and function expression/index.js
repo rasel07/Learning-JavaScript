@@ -19,5 +19,6 @@ var display2 = function (Message) {
 display2(" Hello this is rasel kabir")
 
 
+
 // Task 7: Create and IIFEs That Print sum of 2 number
 
