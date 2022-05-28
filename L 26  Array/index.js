@@ -15,5 +15,15 @@ names[3] = "Renku";
 names[4] = "tikku";
 names[5] = "Rasel";
 
+
+
+var names = ["Rasel", "Tania", "Liton",]
+names.push("Jewel");
+names.push("Rana");
+names.pop("tania");
 console.log(names);
 
+var country = ["Bangladesh", "pakisthan"]
+var contry = ["india", "Napel"]
+var country2 = contry.concat(country);
+console.log(country2)
