@@ -1,0 +1,16 @@
+.head {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button.mybutton {
+    background-color: #04AA6D;
+    padding: 18px 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 20;
+    color: #fff;
+}
