@@ -1,0 +1,21 @@
+button.mybutton {
+    background-color: #04AA6D;
+    padding: 18px 50px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 20;
+    color: #fff;
+}
+
+.form-input {
+    margin-bottom: 1rem;
+}
+
+.form-input input {
+    display: table;
+}
+
+.animation {
+    box-shadow: 0 15px 18px 0 #04AA6D;
+}
