@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="year_validation">
+        <h4>Year*</h4>
+        <form action="" name="myform" onsubmit="return validation()">
+            <input type="number" name="num" placeholder="input year"> <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        var numb = document.forms['myform']['num']
+
+        function validation() {
+            if (numb.value == '') {
+                alert("Number field cannot be empty!")
+                return false;
+            }
+            if (numb.value.length > 4) {
+                alert('Year should be limited to 4 character!')
+                return false
+            }
+            else {
+                alert('Thank You! Your Form has been submitted successfully')
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>
