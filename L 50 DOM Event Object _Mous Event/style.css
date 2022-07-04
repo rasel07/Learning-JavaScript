@@ -1,0 +1,8 @@
+.mouse-evt {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    color: #fff;
+    padding: 25px;
+    font-weight: bold;
+}
