@@ -2,4 +2,10 @@
     width: 400px;
     height: 200px;
     background-color: brown;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px
 }
+
+`
